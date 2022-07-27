@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Signika&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    background-color: rgba(3, 44, 166, 0.601);
+    /* width: ; */
+    font-family: 'Signika', sans-serif;
+    height: 100vh;
+}
+
+
+.sidebar nav {
+    padding: 45px;
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 20px;
+    padding: 33px 0;
+    color: whitesmoke;
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.main {
+    /* background-color: yellow; */
+    width: 90vw;
+    display: flex;
+}
+
+
+.container {
+    display: flex;
+}
+
+.infoContainer {
+    /* background-color: rgb(112, 43, 249); */
+    height: 58vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devPic img {
+    height: 58vh;
+}
+
+.devInfo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Dosis', sans-serif;
+
+}
+
+.hello {
+    font-size: 65px;
+    font-family: 'Signika', sans-serif;
+
+}
+
+.name {
+    font-size: 50px;
+    font-weight: bolder;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.about {
+    font-size: 20px;
+}
+
+.moreabout {
+    font-size: 23px;
+    margin-top: 23px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.btn {
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: antiquewhite;
+    background-color: rgb(207, 91, 2);
+    font-weight: bold;
+    font-size: 21px;
+    margin: 0 3px;
+    cursor: pointer;
+}
+
+.btn-sm{
+    font-size: 10px;
+    padding: 7px 13px;
+    margin: 10px 0;
+}
+
+.btn:hover {
+    color: rgb(207, 91, 2);
+    background-color: antiquewhite;
+}
+
+.contactform{
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 0 34px;
+    padding-top: 144px;
+}
+
+.contactform h1{
+    font-family: 'Dosis', sans-serif;
+    padding: 2px 0;
+}
+
+.contactform form div{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column ;
+}
+
+.contactform form div input{
+    width: 26vw;
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+}
+
+#emailHelp{
+    font-size: 11px;
+    color: rgb(17, 17, 212);
+    margin: 0 5px;
+    padding: 3px 0 0 0;
+}
+
+#form-check{
+    flex-direction: row;
+}
+
+#form-check input{
+    width: 24px;
+    margin: 3px 0;
+}
+
+.blogItem{
+    margin: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+h1{
+    font-family: 'Dosis', sans-serif;
+    margin: 23px;
+}
+
+p{
+    font-family: 'Signika', sans-serif;
+}
+
+.intro h2{
+    font-family: 'Dosis', sans-serif;
+    font-size: 42px;
+    margin: 12px;
+}
+
+.intro p{
+    font-family: 'Signika', sans-serif;
+    margin: 12px;
+}
+
+.skillContainer{
+    padding: 12px;
+}
+
+.skillItem{
+    /* display: flex; */
+    font-family: 'Signika', sans-serif;
+    align-items: center;
+    font-weight: 900;
+}
+
+.certificate a{
+    color: black;
+}
+.skill{
+    height: 6px;
+    width: 265px;
+    background-color: red;
+    border: 2px solid black;
+}
+
+.hundred{
+    width:265px;
+    background-color: blueviolet;
+}
+
+.ninety{
+    width: 240px;
+    background-color: green;
+}
+
+.eighty{
+    width: 215px;
+    background-color: yellow;
+}
+
+.s5{
+    width: 200px;
+    background-color: darkslategray;
+}
+
+.fifty{
+    width: 125px;
+    background-color: aqua;
+}
+
+.n5{
+    width: 250px;
+    background-color: coral;
+}
+
+
+
+.fa-brands{
+    cursor: pointer;
+}
+
+#hide{
+    display: none;
+}
+
