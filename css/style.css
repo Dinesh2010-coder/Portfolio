@@ -177,6 +177,10 @@ p{
 }
 
 .skillContainer{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
     padding: 12px;
 }
 
@@ -196,6 +200,7 @@ p{
     background-color: red;
     border: 2px solid black;
 }
+
 
 .hundred{
     width:265px;
@@ -236,4 +241,3 @@ p{
 #hide{
     display: none;
 }
-
